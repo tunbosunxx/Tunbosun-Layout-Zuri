@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(15, 10, 43);
+}
+
+main {
+  width: 50%;
+  display: grid;
+  margin: auto;
+  align-content: center;
+  height: 500px;
+  column-gap: 50px;
+  row-gap: 10px;
+  grid-template-rows: 200px 200px 230px 100px 120px;
+}
+.c1 {
+  background-color: white;
+  color: white;
+  position: relative;
+  top: 250px;
+  width: 55%;
+}
+.c2 {
+  background-color: orange;
+  color: orange;
+  width: 40%;
+  position: relative;
+  right: -380px;
+  top: 40px;
+}
+.c3 {
+  background-color: green;
+  color: green;
+  width: 40%;
+  position: relative;
+  top: 40px;
+}
+.c4,
+.c5 {
+  background-color: rgb(159, 32, 55);
+  color: rgb(159, 32, 55);
+  width: 55%;
+  position: relative;
+  right: -280px;
+  top: -200px;
+}
